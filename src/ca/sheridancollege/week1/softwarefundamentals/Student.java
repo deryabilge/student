@@ -14,6 +14,15 @@ public class Student {
     private String name;
     private double GPA;
     private String email;
+    private String gsm;
+
+    public String getGsm() {
+        return gsm;
+    }
+
+    public void setGsm(String gsm) {
+        this.gsm = gsm;
+    }
 
     public void setGPA(double GPA) {
         this.GPA = GPA;
